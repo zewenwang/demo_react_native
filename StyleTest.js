@@ -11,6 +11,7 @@ export default class LotsOfStyles extends Component {
             <Text style={[styles.red, styles.bigblue]}>asdakjhfask</Text>
         </View>);
 
+    }
 }
 
 const styles = StyleSheet.create({
