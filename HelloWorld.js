@@ -18,10 +18,7 @@ class Bananas extends Component {
         };
         return (<View>
             <Text>这是个图片</Text>
-            <Image source={pic} style={{
-                    width: 200,
-                    height: 110
-                }}/>
+            <Image source={pic} style={{width: 200, height: 110}}/>
             <Text>这是个图片!!!</Text>
             <Text>props.name: {this.props.name}</Text>
         </View>);
